@@ -4,7 +4,7 @@ import BFS from "../../../src/graph/bfs/bfs";
 import GraphType from "../../../src/graph/GraphType";
 import GraphNode from "../../../src/graph/GraphNode";
 
-describe('demo', () => {
+describe('exec', () => {
   const graph: GraphType = new Map<GraphNode<number>, GraphNode<number>[]>();
 
   const node1: GraphNode<number> = new GraphNode(1);
