@@ -1,11 +1,11 @@
 import {describe} from 'mocha'
 import {expect} from 'chai'
-import GraphType from "../../../src/graph/GraphType";
+import Graph from "../../../src/graph/Graph";
 import GraphNode from "../../../src/graph/GraphNode";
 import DFS from "../../../src/graph/dfs/dfs";
 
 describe('execRecursive', () => {
-  const graph: GraphType = new Map<GraphNode<number>, GraphNode<number>[]>();
+  const graph: Graph<number> = new Graph<number>();
 
   const node1: GraphNode<number> = new GraphNode(1);
   const node2: GraphNode<number> = new GraphNode(2);
@@ -18,16 +18,16 @@ describe('execRecursive', () => {
   const node9: GraphNode<number> = new GraphNode(9);
   const node10: GraphNode<number> = new GraphNode(10);
 
-  graph.set(node1, [node2, node5, node9]);
-  graph.set(node2, [node3])
-  graph.set(node3, [node4])
-  graph.set(node4, [node7])
-  graph.set(node5, [node6, node8])
-  graph.set(node6, [node7])
-  graph.set(node7, [])
-  graph.set(node8, [])
-  graph.set(node9, [node10])
-  graph.set(node10, [])
+  graph.setAdjacencyList(node1, [node2, node5, node9]);
+  graph.setAdjacencyList(node2, [node3])
+  graph.setAdjacencyList(node3, [node4])
+  graph.setAdjacencyList(node4, [node7])
+  graph.setAdjacencyList(node5, [node6, node8])
+  graph.setAdjacencyList(node6, [node7])
+  graph.setAdjacencyList(node7, [])
+  graph.setAdjacencyList(node8, [])
+  graph.setAdjacencyList(node9, [node10])
+  graph.setAdjacencyList(node10, [])
 
   const dfs = new DFS<number>(graph, node1)
   dfs.execRecursive(node1)
@@ -36,7 +36,7 @@ describe('execRecursive', () => {
 })
 
 describe('execIterative', () => {
-  const graph: GraphType = new Map<GraphNode<number>, GraphNode<number>[]>();
+  const graph: Graph<number> = new Graph<number>()
 
   const node1: GraphNode<number> = new GraphNode(1);
   const node2: GraphNode<number> = new GraphNode(2);
@@ -49,16 +49,16 @@ describe('execIterative', () => {
   const node9: GraphNode<number> = new GraphNode(9);
   const node10: GraphNode<number> = new GraphNode(10);
 
-  graph.set(node1, [node2, node5, node9]);
-  graph.set(node2, [node3])
-  graph.set(node3, [node4])
-  graph.set(node4, [node7])
-  graph.set(node5, [node6, node8])
-  graph.set(node6, [node7])
-  graph.set(node7, [])
-  graph.set(node8, [])
-  graph.set(node9, [node10])
-  graph.set(node10, [])
+  graph.setAdjacencyList(node1, [node2, node5, node9]);
+  graph.setAdjacencyList(node2, [node3])
+  graph.setAdjacencyList(node3, [node4])
+  graph.setAdjacencyList(node4, [node7])
+  graph.setAdjacencyList(node5, [node6, node8])
+  graph.setAdjacencyList(node6, [node7])
+  graph.setAdjacencyList(node7, [])
+  graph.setAdjacencyList(node8, [])
+  graph.setAdjacencyList(node9, [node10])
+  graph.setAdjacencyList(node10, [])
 
   const dfs = new DFS<number>(graph, node1)
   dfs.execIterative()
