@@ -18,6 +18,10 @@ class GraphNode<T> {
   decreaseIncomeEdge(): void {
     this.incomeEdge--;
   }
+
+  increaseIncomeEdge(): void {
+    this.incomeEdge++;
+  }
 }
 
 export default GraphNode;

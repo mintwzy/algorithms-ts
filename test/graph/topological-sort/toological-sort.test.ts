@@ -17,25 +17,13 @@ describe('topological sort Kahn BFS', () => {
   const node11: GraphNode<number> = new GraphNode(11);
 
   graph.setAdjacencyList(node2, [])
-  node2.setIncomeEdge(1)
-
   graph.setAdjacencyList(node3, [node8, node10])
-
   graph.setAdjacencyList(node5, [node11])
-
   graph.setAdjacencyList(node7, [node8, node11])
-
   graph.setAdjacencyList(node8, [node9])
-  node8.setIncomeEdge(2)
-
   graph.setAdjacencyList(node9, [])
-  node9.setIncomeEdge(2)
-
   graph.setAdjacencyList(node10, [])
-  node10.setIncomeEdge(2)
-
   graph.setAdjacencyList(node11, [node2, node9, node10])
-  node11.setIncomeEdge(2)
 
   const topologicalSort = new TopologicalSort<number>(graph);
   topologicalSort.execKahnBFS()

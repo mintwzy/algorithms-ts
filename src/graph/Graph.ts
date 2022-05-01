@@ -9,6 +9,7 @@ class Graph<T>{
 
   setAdjacencyList(key: GraphNode<T>, list: GraphNode<T>[]){
     this.adjacencyList.set(key, list)
+    list.forEach(node => node.increaseIncomeEdge())
   }
 
   getNeighbours(node: GraphNode<T>): GraphNode<T>[]{
