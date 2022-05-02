@@ -43,7 +43,6 @@ class BFS<T> {
       // process front
       // @ts-ignore
       const frontNode: GraphNode<T> = queue.shift()
-      this.resultT.push(frontNode.value)
 
       // process front neighbour
       for(let neighbourNode of this.graph.getNeighbours(frontNode)) {
@@ -60,6 +59,7 @@ class BFS<T> {
         }
       }
 
+      this.resultT.push(frontNode.value)
       // finished visiting node
       //  If (u, v)  belongs to E and vertex u is black, then vertex v
       // is either gray or black; that is, all vertices adjacent to black vertices have been discovered.
