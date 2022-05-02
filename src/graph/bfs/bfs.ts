@@ -34,6 +34,9 @@ class BFS<T> {
     // start with startNode
     queue.push(this.startNode)
     visited.add(this.startNode)
+    this.startNode.setNodeGray();
+    this.startNode.setDistance(0)
+    this.startNode.setParent(null)
 
     // loop until the queue is empty
     while(queue.length > 0) {
@@ -44,11 +47,23 @@ class BFS<T> {
 
       // process front neighbour
       for(let neighbourNode of this.graph.getNeighbours(frontNode)) {
+        // neighbourNode.isWhite(), white implies unvisited
         if(!visited.has(neighbourNode)){
           visited.add(neighbourNode)
+          // Gray, first visited
+          // Gray vertices may have some adjacent white vertices; they represent
+          // the frontier between discovered and undiscovered vertices.
+          neighbourNode.setNodeGray();
+          neighbourNode.setDistance(frontNode.distance + 1)
+          neighbourNode.setParent(frontNode)
           queue.push(neighbourNode)
         }
       }
+
+      // finished visiting node
+      //  If (u, v)  belongs to E and vertex u is black, then vertex v
+      // is either gray or black; that is, all vertices adjacent to black vertices have been discovered.
+      frontNode.setNodeBlack();
     }
   }
 }
