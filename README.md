@@ -1,11 +1,19 @@
 # algorithms-ts
 
-Algorithms in TypeScript
+This project has algorithms in TypeScript with test. The graph/tree/queue are drawn using
+Graphviz for easy visualization.
 
 ## Test
 
 ```shell
+yarn install
 yarn test
+```
+
+OR
+
+```shell
+docker-compose up
 ```
 
 ## Graphviz
