@@ -1,8 +1,8 @@
 import {describe, it} from "mocha";
-import Tree from "../../../src/tree/Tree";
-import TreeNode from "../../../src/tree/TreeNode";
 import {expect} from "chai";
-import LevelOrderTraversal from "../../../src/tree/LevelOrderTraversal/LevelOrderTraversal";
+import TreeNode from "../../../src/Tree/TreeNode";
+import Tree from "../../../src/Tree/Tree";
+import LevelOrderTraversal from "../../../src/Tree/LevelOrderTraversal/LevelOrderTraversal";
 
 describe('level order traversal', () => {
   describe('exec', () => {
