@@ -9,6 +9,10 @@ class BaseTreeAlgorithm<T> {
     this.tree = tree
     this.result = []
   }
+
+  flatResult(): T[]{
+    return this.result.flat()
+  }
 }
 
 export default BaseTreeAlgorithm;

@@ -25,7 +25,11 @@ docker-compose up
 - [List](https://github.com/mintwzy/algorithms-ts/tree/main/src/List)
 - [Tree](https://github.com/mintwzy/algorithms-ts/tree/main/src/Tree)
   - [Construct from level order traversal](https://github.com/mintwzy/algorithms-ts/tree/main/src/Tree/ConstructFromLevelOrder)
+  - [Diameter]
+  - [Invert binary tree]
+  - [Balanced binary tree]
   - [Level order traversal](https://github.com/mintwzy/algorithms-ts/tree/main/src/Tree/LevelOrderTraversal)
+  - [Maximum depth]
 
 ## Graphviz
 
