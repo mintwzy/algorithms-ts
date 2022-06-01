@@ -1,15 +1,8 @@
 import Tree from "../Tree";
 import TreeNode from "../TreeNode";
+import BaseTreeAlgorithm from "../BaseTreeAlgorithm";
 
-class LevelOrderTraversal<T>{
-  tree: Tree<T>
-
-  result: T[][]
-
-  constructor(tree: Tree<T>) {
-    this.tree = tree
-    this.result = []
-  }
+class LevelOrderTraversal<T> extends BaseTreeAlgorithm<T>{
 
   exec() {
     if(this.tree.root === null) {

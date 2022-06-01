@@ -1,8 +1,8 @@
 import {describe, it} from 'mocha'
 import {expect} from 'chai'
-import Graph from "../../../src/graph/Graph";
-import GraphNode from "../../../src/graph/GraphNode";
-import DFS from "../../../src/graph/dfs/dfs";
+import Graph from '../../../src/Graph/Graph'
+import GraphNode from "../../../src/Graph/GraphNode";
+import DFS from "../../../src/Graph/DFS/DFS";
 
 describe('dfs', () => {
   describe('execRecursive', () => {

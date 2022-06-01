@@ -1,8 +1,8 @@
 import {describe, it} from "mocha";
-import Graph from "../../../src/graph/Graph";
-import GraphNode from "../../../src/graph/GraphNode";
+import Graph from "../../../src/Graph/Graph";
+import GraphNode from "../../../src/Graph/GraphNode";
 import {expect} from "chai";
-import TopologicalSort from "../../../src/graph/topological-sort/topological-sort";
+import TopologicalSort from "../../../src/Graph/TopologicalSort/TopologicalSort";
 
 describe('topological sort', () => {
   describe('Kahn BFS', () => {

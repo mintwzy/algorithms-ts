@@ -1,8 +1,8 @@
 import {describe, it} from 'mocha'
 import {expect} from 'chai'
-import BFS from "../../../src/graph/bfs/bfs";
-import Graph from "../../../src/graph/Graph";
-import GraphNode from "../../../src/graph/GraphNode";
+import BFS from "../../../src/Graph/BFS/BFS";
+import Graph from "../../../src/Graph/Graph";
+import GraphNode from "../../../src/Graph/GraphNode";
 
 describe('bfs', () => {
   describe('exec', () => {
