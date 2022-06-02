@@ -24,12 +24,16 @@ docker-compose up
   - [Topological Sort](https://github.com/mintwzy/algorithms-ts/tree/main/src/Graph/TopologicalSort)
 - [List](https://github.com/mintwzy/algorithms-ts/tree/main/src/List)
 - [Tree](https://github.com/mintwzy/algorithms-ts/tree/main/src/Tree)
+  - [Balanced binary tree](https://github.com/mintwzy/algorithms-ts/tree/main/src/Tree/IsBalanced)
   - [Construct from level order traversal](https://github.com/mintwzy/algorithms-ts/tree/main/src/Tree/ConstructFromLevelOrder)
-  - [Diameter]
-  - [Invert binary tree]
-  - [Balanced binary tree]
+  - [Diameter](https://github.com/mintwzy/algorithms-ts/tree/main/src/Tree/Diameter)
+  - [Invert binary tree](https://github.com/mintwzy/algorithms-ts/tree/main/src/Tree/InvertBinaryTree)
+  - [Lowest common ancestor of a BST]
+  - [Lowest common ancestor of BT]
   - [Level order traversal](https://github.com/mintwzy/algorithms-ts/tree/main/src/Tree/LevelOrderTraversal)
-  - [Maximum depth]
+  - [Maximum depth](https://github.com/mintwzy/algorithms-ts/tree/main/src/Tree/MaxDepth)
+  - [Same tree]
+  - [Subtree]
 
 ## Graphviz
 

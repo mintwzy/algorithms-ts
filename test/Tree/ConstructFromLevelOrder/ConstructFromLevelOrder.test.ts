@@ -16,5 +16,16 @@ describe('construct binary tree from level order', () => {
       levelOrderTraversal.exec()
       expect(levelOrderTraversal.result).deep.equal([[3], [20], [15, 7]])
     })
+
+    it('should return correct result 2', () => {
+      const tree: Tree<number> = new Tree<number>()
+
+      const constructFromLevelOrder: ConstructFromLevelOrder<number> = new ConstructFromLevelOrder<number>(tree)
+      constructFromLevelOrder.exec([1, null, 2])
+
+      const levelOrderTraversal = new LevelOrderTraversal<number>(tree)
+      levelOrderTraversal.exec()
+      expect(levelOrderTraversal.result).deep.equal([[1], [2]])
+    })
   })
 })

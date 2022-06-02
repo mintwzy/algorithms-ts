@@ -6,7 +6,8 @@
   "author": "mint.wzy <mint.wzy@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "test": "ts-mocha"
+    "test": "ts-mocha",
+    "test-it": "ts-mocha -f"
   },
   "devDependencies": {
     "@types/chai": "^4.3.1",

@@ -14,8 +14,9 @@ class ConstructFromLevelOrder<T> extends BaseTreeAlgorithm<T>{
         if(queue[0] === null){
           queue.shift()
         } else {
-          if(queue[0].left === null){
+          if(queue[0].left === null && queue[0]?.leftAddedNull === false){
             queue[0].left = node
+            queue[0]?.setLeftAddedNull()
           } else{
             queue[0].right = node
             queue.shift()
