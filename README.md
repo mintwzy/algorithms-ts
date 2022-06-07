@@ -24,7 +24,9 @@ docker-compose up
 - [Graph](https://github.com/mintwzy/algorithms-ts/tree/main/src/Graph)
   - [BFS](https://github.com/mintwzy/algorithms-ts/tree/main/src/Graph/BFS)
   - [DFS](https://github.com/mintwzy/algorithms-ts/tree/main/src/Graph/DFS)
+    - [Number of Islands]
   - [Topological Sort](https://github.com/mintwzy/algorithms-ts/tree/main/src/Graph/TopologicalSort)
+- [Heap]
 - [List](https://github.com/mintwzy/algorithms-ts/tree/main/src/List)
   - [List Cycle]
   - [Reverse List]

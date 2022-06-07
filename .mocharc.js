@@ -1,4 +1,4 @@
 module.exports = {
-	spec: 'test/*/*/*.test.ts'
+	spec: 'test/*/**/*.test.ts'
 }
 
