@@ -11,9 +11,12 @@ class CombinationSum {
     const LEN: number = this.candidates.length;
     const res: number[][] = []
 
+    // candidate stores one potential result
     const candidate: number[] = []
     const dfs = (i: number, remain: number): void => {
+      // fail condition
       if(i === LEN || remain < 0) return;
+      // success condition
       if(remain === 0){
         res.push([...candidate])
       }
