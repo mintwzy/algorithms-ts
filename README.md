@@ -20,8 +20,11 @@ docker-compose up
 
 - [Backtracking](https://github.com/mintwzy/algorithms-ts/tree/main/src/Backtracking)
   - [Combination Sum](https://github.com/mintwzy/algorithms-ts/tree/main/src/Backtracking/CombinationSum)
+  - [Combination Sum II]
   - [Permutations]
   - [Subsets](https://github.com/mintwzy/algorithms-ts/tree/main/src/Backtracking/Subsets)
+  - [Subsets II]
+  - [WordSearch]
 - [Binary Search]
   - [Eating bananas]
   - [Find Minimum in Rotated Sorted Array]
@@ -31,6 +34,7 @@ docker-compose up
 - [Graph](https://github.com/mintwzy/algorithms-ts/tree/main/src/Graph)
   - [BFS](https://github.com/mintwzy/algorithms-ts/tree/main/src/Graph/BFS)
   - [DFS](https://github.com/mintwzy/algorithms-ts/tree/main/src/Graph/DFS)
+    - [Clone Graph]
     - [Number of Islands]
   - [Topological Sort](https://github.com/mintwzy/algorithms-ts/tree/main/src/Graph/TopologicalSort)
 - [Heap](https://github.com/mintwzy/algorithms-ts/tree/main/src/Heap)
@@ -54,6 +58,7 @@ docker-compose up
   - [Same tree]
   - [Subtree]
 - [Trie](https://github.com/mintwzy/algorithms-ts/tree/main/src/Trie)
+  - [Design Add and Search Words Data Structure]
 - [Two Pointers]
   - [Container with Most Water] 
   - [Three Sum]
