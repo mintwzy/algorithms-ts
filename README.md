@@ -1,7 +1,6 @@
 # algorithms-ts
 
-This project has algorithms in TypeScript with test. The graph/tree/list are drawn using
-Graphviz for easy visualization.
+This project has algorithms in TypeScript with test. 
 
 ## Test
 
@@ -24,7 +23,7 @@ docker-compose up
   - [Permutations]
   - [Subsets](https://github.com/mintwzy/algorithms-ts/tree/main/src/Backtracking/Subsets)
   - [Subsets II]
-  - [WordSearch]
+  - [WordSearch](https://github.com/mintwzy/algorithms-ts/tree/main/src/Backtracking/WordSearch)
 - [Binary Search]
   - [Eating bananas]
   - [Find Minimum in Rotated Sorted Array]
@@ -65,6 +64,8 @@ docker-compose up
   - [Two Sum II]
 
 ## Graphviz
+
+The graph/tree/list are drawn using Graphviz for easy visualization. 
 
 To generate `.dot` graph to `.png` file
 
