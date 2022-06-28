@@ -24,9 +24,9 @@ docker-compose up
   - [Subsets](https://github.com/mintwzy/algorithms-ts/tree/main/src/Backtracking/Subsets)
   - [Subsets II]
   - [WordSearch](https://github.com/mintwzy/algorithms-ts/tree/main/src/Backtracking/WordSearch)
-- [Binary Search]
+- [Binary Search](https://github.com/mintwzy/algorithms-ts/tree/main/src/BinarySearch)
   - [Eating bananas]
-  - [Find Minimum in Rotated Sorted Array]
+  - [Find Minimum in Rotated Sorted Array](https://github.com/mintwzy/algorithms-ts/tree/main/src/BinarySearch/MinRotatedSortedArray)
   - [Search a 2D Matrix]
   - [Search Rotated Sorted Array]
   - [Time Based Key-Value Store]
