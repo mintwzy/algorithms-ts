@@ -19,10 +19,10 @@ docker-compose up
 
 - [Backtracking](https://github.com/mintwzy/algorithms-ts/tree/main/src/Backtracking)
   - [Combination Sum](https://github.com/mintwzy/algorithms-ts/tree/main/src/Backtracking/CombinationSum)
-  - [Combination Sum II]
-  - [Permutations]
+  - [Combination Sum II](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Backtracking/CombinationSumII)
+  - [Permutations](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Backtracking/Permutations)
   - [Subsets](https://github.com/mintwzy/algorithms-ts/tree/main/src/Backtracking/Subsets)
-  - [Subsets II]
+  - [Subsets II](https://github.com/mintwzy/algorithms/tree/main/nodejs/src/Backtracking/SubsetsII)
   - [WordSearch](https://github.com/mintwzy/algorithms-ts/tree/main/src/Backtracking/WordSearch)
 - [Binary Search](https://github.com/mintwzy/algorithms-ts/tree/main/src/BinarySearch)
   - [Eating bananas]
