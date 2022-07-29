@@ -1,4 +1,4 @@
-# algorithms-ts
+# algorithms/nodejs
 
 This project has algorithms in TypeScript with test. 
 
